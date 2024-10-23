@@ -1,3 +1,3 @@
-import './prueba/index';
+import './parcial/index';
 
 
