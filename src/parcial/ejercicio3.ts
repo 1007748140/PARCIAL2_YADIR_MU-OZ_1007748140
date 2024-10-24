@@ -43,7 +43,7 @@ class Contact implements ContacInfo {
         if (valPhone(phoneNumber)) {
             this.phoneNumber = phoneNumber;
         } else {
-            throw new Error('numero invalido');
+            throw new Error('numero no valido');
         }
     }
 }
