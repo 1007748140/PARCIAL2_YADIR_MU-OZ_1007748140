@@ -26,3 +26,7 @@ arrayNumber.pop();
 // encuentra el indice del numero 3 en el array de numeros
 const indexNumber = arrayNumber.indexOf(3);
 console.log(indexNumber, 'indexNumber');
+
+//extrae una parte del array de numeros desde el segundo hasta el cuarto elemento
+const arrayNumberSlice = arrayNumber.slice(1,4);
+console.log(arrayNumberSlice, 'arrayNumberSlice');
