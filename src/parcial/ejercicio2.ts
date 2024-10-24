@@ -35,3 +35,7 @@ console.log(arrayNumberSlice, 'arrayNumberSlice');
 // eleve al cuadrado todos los numeros del array de numeros usando map
 const arrayNumberCuadra = arrayNumber.map((number) => number * number);
 console.log(arrayNumberCuadra, 'arrayNumberSquare');
+
+// filtrar los numeros pares del array de numeros
+const arrayNumberFilter = arrayNumber.filter((number) => number % 2 === 0);
+console.log(arrayNumberFilter, 'arrayNumberFilter');
