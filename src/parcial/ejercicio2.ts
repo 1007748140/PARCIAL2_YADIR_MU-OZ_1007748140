@@ -58,11 +58,15 @@ console.log(arrayNumberEvery, 'arrayNumberEvery');
 const arrayNumberSome = arrayNumber.some((num) => num > 40);
 console.log(arrayNumberSome, 'arrayNumberSome');
 
-// combina los arrays [1,2,3] y [4,5,6] en un solo array.
+// combina los arrays array1[1,2,3] y [4,5,6] en un solo array.
+const array1 = [1,2,3];
+const array2 = [4,5,6];
+const arrayConcat = array1.concat(array2);
+console.log(arrayConcat, 'arrayConcat');
 
-
-
-
-
-
-
+// ordenar el array [5,1,4,2,3] de menor a mayor y luego revierte el orden.
+const arraySort = [5,1,4,2,3];
+const arrayAsc = arraySort.sort((a, b) => a - b);
+const arrayDes = arrayAsc.reverse();
+console.log(arrayAsc, 'arrayAsc');
+console.log(arrayDes, 'arrayDes');
