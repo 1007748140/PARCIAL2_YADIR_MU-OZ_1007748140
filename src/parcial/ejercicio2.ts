@@ -19,3 +19,6 @@ const arrayTuplas: [number, string][] = [
 // añadir numero 6
 arrayNumber.push(6);
 console.log(arrayNumber, 'arrayNumber');
+
+// eliminar el ultimo elemento del array de numeros
+arrayNumber.pop();
