@@ -74,3 +74,7 @@ console.log(arrayDes, 'arrayDes');
 // ordenar el array de nombres en orden alfabetico
 const arraySortName = nameFrut.sort();
 console.log(arraySortName, 'arraySortName');
+
+// verificar si el numero 4 esta presente en el array de numeros [10,20,30,40,50]
+const arrayNumberIncludes = arrayNumberFind.filter(num=>num ===4);
+console.log('si retorna un array bacio es porque el numero 4 no esta presente',arrayNumberIncludes, 'arrayNumberIncludes');
