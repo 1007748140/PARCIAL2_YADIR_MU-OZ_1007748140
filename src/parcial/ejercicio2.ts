@@ -70,3 +70,7 @@ const arrayAsc = arraySort.sort((a, b) => a - b);
 const arrayDes = arrayAsc.reverse();
 console.log(arrayAsc, 'arrayAsc');
 console.log(arrayDes, 'arrayDes');
+
+// ordenar el array de nombres en orden alfabetico
+const arraySortName = nameFrut.sort();
+console.log(arraySortName, 'arraySortName');
