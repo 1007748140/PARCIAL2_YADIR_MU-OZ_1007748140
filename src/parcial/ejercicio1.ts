@@ -7,5 +7,4 @@
      }
      arrayNumberTriangle.push(row);
  }
- console.log(arrayNumberTriangle, 'arrayNumberTriangle');
-
+ console.log('Triangulo ', arrayNumberTriangle, 'arrayNumberTriangle');
