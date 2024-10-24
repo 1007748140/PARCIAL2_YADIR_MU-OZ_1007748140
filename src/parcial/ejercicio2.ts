@@ -15,3 +15,7 @@ const arrayTuplas: [number, string][] = [
     [3, 'pera'],
     [4, 'manzana']
 ];
+
+// añadir numero 6
+arrayNumber.push(6);
+console.log(arrayNumber, 'arrayNumber');
