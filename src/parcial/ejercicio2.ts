@@ -39,3 +39,7 @@ console.log(arrayNumberFilter, 'arrayNumberFilter');
 const arrayNumberReduce = arrayNumber.reduce((r, num) => r + num, 0);
 console.log(arrayNumberReduce, 'arrayNumberReduce');
 
+// divide una cadena de texto en un array de palabras nameFrut y luego vuelve a unirlas en una cadena ceparadas por comas.
+const arrayFru = nameFrut.join(' ');
+console.log(arrayFru, 'arrayFru');
+
