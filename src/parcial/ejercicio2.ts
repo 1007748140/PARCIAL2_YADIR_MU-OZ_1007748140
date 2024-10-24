@@ -58,8 +58,11 @@ console.log(arrayNumberEvery, 'arrayNumberEvery');
 const arrayNumberSome = arrayNumber.some((num) => num > 40);
 console.log(arrayNumberSome, 'arrayNumberSome');
 
-// combina los arrays 1,2,3 y 4,5,6 en un solo array
-const arrayNumberConcat = arrayNumber.concat(arrayNumberFind);
-console.log(arrayNumberConcat, 'arrayNumberConcat');
+// combina los arrays [1,2,3] y [4,5,6] en un solo array.
 
-//
+
+
+
+
+
+
