@@ -43,3 +43,23 @@ console.log(arrayNumberReduce, 'arrayNumberReduce');
 const arrayFru = nameFrut.join(' ');
 console.log(arrayFru, 'arrayFru');
 
+// encuentra el primer numero mayor que 25 en el array
+const arrayNumberFind = [10,20,30,40,50];
+const numberFind = arrayNumberFind.find((num) => num > 25);
+const indexFind = arrayNumberFind.indexOf(numberFind);
+console.log(numberFind, 'numberFind');
+console.log(indexFind, 'indexFind');
+
+// verifica si todos los numeros son positivos
+const arrayNumberEvery = arrayNumber.every((num) => num > 0);
+console.log(arrayNumberEvery, 'arrayNumberEvery');
+
+// verifica si algun numero es mayor que 40
+const arrayNumberSome = arrayNumber.some((num) => num > 40);
+console.log(arrayNumberSome, 'arrayNumberSome');
+
+// combina los arrays 1,2,3 y 4,5,6 en un solo array
+const arrayNumberConcat = arrayNumber.concat(arrayNumberFind);
+console.log(arrayNumberConcat, 'arrayNumberConcat');
+
+//
