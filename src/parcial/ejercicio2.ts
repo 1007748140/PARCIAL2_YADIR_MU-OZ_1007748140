@@ -1,8 +1,3 @@
-  // genere un triangulo de numeros con 5 filas utilizando ciclos for anidados.
-
-
-
-
 // punto 2
 const arrayNumber: number []=[1,2,3,4,5];
 const nameFrut: string [] = ['uva','banano', 'pera', 'manzana'];
@@ -33,9 +28,14 @@ console.log(arrayNumberSlice, 'arrayNumberSlice');
 
 
 // eleve al cuadrado todos los numeros del array de numeros usando map
-const arrayNumberCuadra = arrayNumber.map((number) => number * number);
+const arrayNumberCuadra = arrayNumber.map((num) => num * num);
 console.log(arrayNumberCuadra, 'arrayNumberSquare');
 
 // filtrar los numeros pares del array de numeros
-const arrayNumberFilter = arrayNumber.filter((number) => number % 2 === 0);
+const arrayNumberFilter = arrayNumber.filter((num) => num % 2 === 0);
 console.log(arrayNumberFilter, 'arrayNumberFilter');
+
+// sumar todos los numeros del array utilizando reduce.
+const arrayNumberReduce = arrayNumber.reduce((r, num) => r + num, 0);
+console.log(arrayNumberReduce, 'arrayNumberReduce');
+
