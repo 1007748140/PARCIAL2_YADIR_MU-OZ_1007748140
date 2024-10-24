@@ -30,3 +30,8 @@ console.log(indexNumber, 'indexNumber');
 //extrae una parte del array de numeros desde el segundo hasta el cuarto elemento
 const arrayNumberSlice = arrayNumber.slice(1,4);
 console.log(arrayNumberSlice, 'arrayNumberSlice');
+
+
+// eleve al cuadrado todos los numeros del array de numeros usando map
+const arrayNumberCuadra = arrayNumber.map((number) => number * number);
+console.log(arrayNumberCuadra, 'arrayNumberSquare');
