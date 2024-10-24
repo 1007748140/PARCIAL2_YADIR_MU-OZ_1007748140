@@ -22,3 +22,7 @@ console.log(arrayNumber, 'arrayNumber');
 
 // eliminar el ultimo elemento del array de numeros
 arrayNumber.pop();
+
+// encuentra el indice del numero 3 en el array de numeros
+const indexNumber = arrayNumber.indexOf(3);
+console.log(indexNumber, 'indexNumber');
